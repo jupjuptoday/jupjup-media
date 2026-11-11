@@ -1,0 +1,26 @@
+Free AI video on your own PC? They claim 10 seconds of video in 6.8 sec. I tested local vs paid. | AI LAB 04
+
+Step 1, pay per video (price for one 10-sec clip): Gemini Omni $0.70 · Kling 3.0 ≈ $0.70 · Seedance 2.5 $3.40 · Veo 3.1 $4.00. Every retry costs again.
+
+Step 2, free open models and the GPU memory they need:
+• LTX-2.5: 32GB (16GB with a compressed version)
+• Wan 2.2: 24GB (the small 5B model runs on 8GB)
+• MiniMax H3: 12GB to try, 24GB to be comfortable (license excludes US, EU, UK and Korea by default)
+All need an NVIDIA GPU, 32GB RAM and a 40 to 100GB download.
+
+Step 3, the race. Same image, same prompt, one 10-sec video, measured on Nov 11:
+• LTX's own number: 6.8 s (2× NVIDIA GB200 datacenter chips)
+• my 48GB card: 59.5 s · my 32GB card: 1:16.6
+• Gemini Omni: 34 s, $0.70
+• Seedance 2.5: 17:06 including the queue, 70 credits ≈ $3.4
+
+My take: fewer than ~100 videos a month, pay per video. Hundreds a month or private footage, get a GPU. A $450 16GB card equals 130 to 640 paid videos. Our 16GB test crashed with the full LTX model, so use the compressed one.
+
+Save this before you buy a GPU for AI video 💾
+What's your GPU? Comment your VRAM 👇
+
+Sources: LTX system requirements (docs.ltx.io), Google Gemini API pricing, Higgsfield credit rates (Plus ≈ $0.049 per credit), Steam Hardware Survey. Card prices: new listings, Nov 2026.
+🎬 AI-generated video · Leo & Bom are from our AI drama LEO IN SEOUL
+내 PC로 공짜 AI 영상, 진짜 될까? 유료 4종 가격·오픈 모델 사양·직접 경주까지.
+
+#aiguineapiglab #aivideo #localai #comfyui #LTX
